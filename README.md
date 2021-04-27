@@ -1,2 +1,2 @@
 # Personal-Wedpage
-Personal Webpage (html)
+This personal web page is built with html code.
