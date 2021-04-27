@@ -1,6 +1,6 @@
 # README
 
-This repository contains personal website built with html code.
+This repo contains practice files and working on files. Final version will be uploaded to separated repo.
 
 # LICENSE
 MIT License
