@@ -2,10 +2,10 @@ body {
   background-color: #171d2f;
   margin: 0px;
 }
-hr {
+.hr {
   border-style: none;
   height: 1px;
-  background-color: #ebd8b7;
+  background-color: wheat;
   margin: 0px;
 }
 h1 {
@@ -15,6 +15,12 @@ h2 {
   color: #e2e2e2;
 }
 h3 {
+  color: #e2e2e2;
+}
+h4 {
+  color: #e2e2e2;
+}
+h5 {
   color: #e2e2e2;
 }
 p {
@@ -29,6 +35,7 @@ td {
 image {
   border: 0px;
 }
+
 a:link {
   color: wheat;
   background-color: transparent;
@@ -36,6 +43,12 @@ a:link {
 }
 a:visited {
   color: wheat;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2a6954;
   background-color: transparent;
   text-decoration: none;
 }

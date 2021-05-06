@@ -1,47 +1,50 @@
+<!--Comment syntax-->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <!--UTF-8 is one of encoding method, character set-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="summary" content="summary">
-    <title>Summary</title>
+    <meta name="description"
+        content="This website is for practicing HTML and ultimately building personnal resume website">
+    <title>Byeonghoon Jeon's website</title>
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link rel="icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
 </head>
 
-<body style="margin-left: 40px;">
-    <div class="menu-bar" style= "width: 100%; height: 50px; padding: 0px;">
-        <table cellspacing="0px" style="width: 100%; height: 100%;">
-            <tbody>
-                <tr>
-                    <td style="width: 60%;">
-                        <h2 style="color: wheat;"><a href="index.html">Home</a></h2>
-                    </td>
-                    <td style="text-align: center;">
-                        <a href="summary.html">
-                            <h2 style="color: wheat;">SUMMARY</h2>
-                        </a>
-                    </td>
-                    <td style="text-align: center;">
-                        <a href="work_experience.html">
-                            <h2>CAREER</h2>
-                        </a>
-                    </td>
-                    <td style="text-align: center;">
-                        <a href="master_course.html">
-                            <h2>EDUCATION</h2>  
-                        </a>
-                    </td>
-                    <td style="width: 5%;">
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <h1 style="text-align: center;">SUMMARY</h1>
-    <hr style="margin: auto; width: 15%;">
-    <h1 style="text-align: center;">Nathan Jeon</h1>
+<body style="background-color: #171D2F;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><STRONG>NATHAN JEON</STRONG></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="summary.html"><strong>SUMMARY</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="master_course.html"><strong>EDUCATION</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="work_experience.html"><strong>CAREER</strong></a>
+              </li>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+      <br>
+    <h2 style="text-align: center;">SUMMARY</h2>
+    <hr style="color: wheat; margin: auto; width: 15%; opacity: 1; height: 1px;">
+    <br>
     <br>
     <br>
     <table align="center" border="0px" style="border-spacing: 0px; height: 200px; width: 40%;">
@@ -62,7 +65,7 @@
                     </tr>
                     <tr>
                         <td style="background-color: wheat; border-spacing: 0;">
-                            <h3 style="color: #171D2F; margin-left: 20px;">The feeling that I feel when code works as
+                            <h5 style="color: #171D2F; margin-left: 20px;">The feeling that I feel when code works as
                                 exactly intended, makes me keep learning and challenge.</h3>
                         </td>
                     </tr>
@@ -73,38 +76,38 @@
             </td>
     </table>
 
-    <table cellspacing="8px"
+    <table cellspacing="10px"
         style="height: 270px; margin-top:50px; margin-right:auto; margin-left: auto; text-align: center; width: 65%;">
         <tbody>
             <tr>
-                <td style="font-size: 30px;">
+                <td style="font-size: 25px;">
                     2019 ~ 2021
                 </td>
                 <td>
-                    <h1 style="font-size: 30px; margin-bottom: 0px;">Global Regulatory Affiars Junior Associate</h1>
-                    <p style="font-size: 25px; margin-top: 0px;">Global business team, <a
+                    <h2 style="font-size: 25px; margin-bottom: 0px;">Global Regulatory Affiars Junior Associate</h2>
+                    <p style="font-size: 20px; margin-top: 0px;">Global business team, <a
                             href="http://www.corepharm.com/"><strong>CorepharmBio. Co., Ltd.</strong></a></p>
                 </td>
             </tr>
             <tr>
-                <td style="font-size: 30px;">
+                <td style="font-size: 25px;">
                     2018 ~ 2020
                     <br>
-                    <p style="font-size: 25px; margin-top: 0px;">Side project during master's course</p>
+                    <p style="font-size: 20px; margin-top: 0px;">Side project during master's course</p>
                 </td>
-                <td style="font-size: 30px;">
-                    <h1 style="font-size: 30px; margin-bottom: 0px;">Researcher</h1>
-                    <p style="font-size: 25px; margin-top: 0px;">A parmaceutical company (confidential), Korea</p>
+                <td style="font-size: 25px;">
+                    <h2 style="font-size: 25px; margin-bottom: 0px;">Researcher</h2>
+                    <p style="font-size: 20px; margin-top: 0px;">A parmaceutical company (confidential), Korea</p>
                 </td>
             </tr>
             <tr>
-                <td style="font-size: 30px;">
+                <td style="font-size: 25px;">
                     2018 ~ 2020
                 </td>
-                <td style="font-size: 30px;">
-                    <h1 style="font-size: 30px; margin-bottom: 0px;"><a href="master_course.html">Master's Science
-                            degree</a></h1>
-                    <p style="font-size: 25px; margin-top: 0px;">Pharmacology, Seoul National University</p>
+                <td style="font-size: 25px;">
+                    <h2 style="font-size: 25px; margin-bottom: 0px;"><a href="master_course.html">Master's Science
+                            degree</a></h2>
+                    <p style="font-size: 20px; margin-top: 0px;">Pharmacology, Seoul National University</p>
                 </td>
             </tr>
         </tbody>
